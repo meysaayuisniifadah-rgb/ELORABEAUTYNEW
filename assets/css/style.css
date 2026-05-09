@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #111;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
+                url('../images/hero.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+
+.hero p {
+    color: #d4af37;
+}
+
+.btn {
+    padding: 12px 30px;
+    background: #d4af37;
+    color: black;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+/* SECTION */
+.about, .products, .cta {
+    padding: 80px;
+    text-align: center;
+}
+
+/* CARD */
+.card {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* ORDER BUTTON */
+.btn-order {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #d4af37;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    text-align: center;
+    padding: 20px;
+    color: #aaa;
+}
