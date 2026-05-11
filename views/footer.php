@@ -1,6 +1,6 @@
 <footer>
 
-    <div class="footer-container">
+    <div class="footer-content">
 
         <div>
             <h3>Location</h3>
